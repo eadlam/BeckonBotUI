@@ -1,0 +1,61 @@
+Header header
+
+# command identifiers
+uint8 COMMAND_GROUP = 12
+uint8 COMMAND_MOVE = 1
+uint8 COMMAND_PERFORM = 11
+uint8 COMMAND_MODIFY = 3
+uint8 COMMAND_PERIODIC = 24
+uint8 COMMAND_UNGROUP = 5
+
+# relationship for 'group'
+uint8 COMMAND_FAMILY = 2
+uint8 COMMAND_LINE = 1
+uint8 COMMAND_WEDGE = 4
+uint8 COMMAND_FLOCK = 5
+uint8 COMMAND_ARMY = 12
+
+# choreography for 'move'
+uint8 COMMAND_SLOW = 21
+uint8 COMMAND_NORMAL = 4
+uint8 COMMAND_FAST = 2
+uint8 COMMAND_DRUNKENLY = 25
+uint8 COMMAND_NERVOUSLY = 23
+
+# action for 'perform'
+uint8 COMMAND_CAMERA_AT = 5
+uint8 COMMAND_LIGHT_AT = 11
+uint8 COMMAND_SOUND_AT = 12
+
+# how-to for 'modify'
+uint8 COMMAND_MORE = 2
+uint8 COMMAND_LESS = 12
+uint8 COMMAND_STOP_HOVER = 5
+uint8 COMMAND_LAND = 21
+uint8 COMMAND_TAKE_OFF = 22
+
+# motion for 'periodic'
+uint8 COMMAND_ELLIPTICAL = 11
+uint8 COMMAND_UP_DOWN = 22
+uint8 COMMAND_SIDE_SIDE = 25
+uint8 COMMAND_ROTATE = 3
+uint8 COMMAND_FOR_REV = 5
+
+# Internal gesture definitions.
+uint8 GESTURE_INDEX_POINT = 1
+uint8 GESTURE_THUMB_INDEX_TOUCH = 2
+uint8 GESTURE_THUMB_CIRCLE = 3
+uint8 GESTURE_MIDDLE_TAPPING = 4
+uint8 GESTURE_MIDDLE_3_FINGERS_TAPPING = 5
+
+uint8 GESTURE_ALL_ONE_POINT = 11
+uint8 GESTURE_HAND_GRAB = 12
+
+uint8 GESTURE_PALM_DOWN_UP = 21
+uint8 GESTURE_PALM_UP_DOWN = 22
+uint8 GESTURE_PALM_FLIP = 23
+uint8 GESTURE_PALM_LEFT_RIGHT = 24
+uint8 GESTURE_PALM_RIGHT_LEFT = 25
+
+# Message fields.
+uint8 gesture
